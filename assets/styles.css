@@ -4,7 +4,7 @@
   margin: 0;
 }
 .cabeca {
-    background-color: #b3b3b3;
+    background-color: #3a4145c4;
     height: 50px;
     width: 100vw;
     display: flex;
@@ -52,6 +52,7 @@
     align-items: center;
     margin-right: 20px;
     cursor: pointer;
+   
 
   }
 
@@ -59,13 +60,38 @@
       height: 60px;
       margin-bottom: 15px;
 
+     
+
 
   }
 
-  .botoesLateral .descricaomenu {
+  
+    /* efeito nos botoes */
+  .botoesLateral:hover{
+  
+    
+    text-decoration:none;
+    background:transparent;
+    outline:none;
+    transition: 300ms;
+    
+    
     
   }
-
- 
-   /* fim Botoes lado direito */
   
+  .botoesLateral:hover{
+    border: 2px solid #F58634;
+    box-shadow: 0 0 8px;
+  }
+  .botoesLateral:focus{
+    
+    border: 2px solid #F58634;
+    background:#F58634;
+    box-shadow: 0 0 2px #F58634;
+  }
+
+
+
+   /* fim Botoes lado direito */
+
+   
