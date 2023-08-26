@@ -8,12 +8,27 @@
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 
+   <!--PreLoader-->
+   <div id="preloader">
+            
+    <div class="loader">
+        
+        <div id="status">&nbsp;</div>
+        <div class="loading-animacao"></div>
+        <span class="title">Carregando...</span>
+    </div>
+</div>
+<!--PreLoader-->
+
 <body>
   <header>
     <div class="cabeca">
       <a href="#" class="voltar">
         <img class="itemmenu" src="src/imagens/Seta.png" id="seta" alt="Voltar para a tela anterior.">
       </a>
+      <div class="logoFundo">
+        <img src="/src/imagens/logo_fundo.png">
+      </div>
       <div class="deslogar">
         <a href="#">
           <img class="itemmenu" src="/src/imagens/DeslogarSistema.png" alt="deslogarsistema">
@@ -21,6 +36,7 @@
         <a href="#">
           <img class="logo" src="/src/imagens/logoEscritaLateral.png" alt="logoescritalateral">
         </a>
+
       </div>
     </div>
   </header>
@@ -37,7 +53,9 @@
       <img src="src/imagens/Relatorios.png">
       <h3 class="descricaomenu">Relatórios</h3>
     </div>
-  </div>
+      </div>
+      <script src="jquery.js"></script>
+      <script src="script.js"></script>
 </body>
-
+  
 </html>
